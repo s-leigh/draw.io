@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T10:17:34.508Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7PCXHbJuJikDNMAlUKhq" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T10:37:21.693Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="RmME9QqI1-qJpUny6cNQ" version="22.1.2" type="github">
   <diagram name="Page-1" id="npTTlI109EYBto2RsMeF">
     <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,10 +16,7 @@
           <mxGeometry x="890" y="317.5" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-5" value="User Profile service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1059" y="460" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-6" value="&lt;span style=&quot;background-color: initial;&quot;&gt;NOTES&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Not using EventBridge as source of truth,&amp;nbsp;&lt;/span&gt;as it&#39;s not really set up as a data storage option&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="230" y="700" width="540" height="70" as="geometry" />
+          <mxGeometry x="619" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xY2N3QJZuRLYCau1LZMu-7" target="xY2N3QJZuRLYCau1LZMu-10">
           <mxGeometry relative="1" as="geometry" />
@@ -38,6 +35,14 @@
         <mxCell id="xY2N3QJZuRLYCau1LZMu-14" value="Create/update/delete&lt;br&gt;schedule" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xY2N3QJZuRLYCau1LZMu-13">
           <mxGeometry x="-0.1304" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xY2N3QJZuRLYCau1LZMu-10" target="xY2N3QJZuRLYCau1LZMu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-40" value="Get email address" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xY2N3QJZuRLYCau1LZMu-39">
+          <mxGeometry x="0.1807" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-10" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
@@ -59,7 +64,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-21" value="Frontend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="28.25" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="28.25" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xY2N3QJZuRLYCau1LZMu-24" target="xY2N3QJZuRLYCau1LZMu-7">
           <mxGeometry relative="1" as="geometry" />
@@ -92,9 +97,6 @@
         <mxCell id="xY2N3QJZuRLYCau1LZMu-31" value="Messages will be one-time schedules or recurring schedules" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="718" y="380" width="83" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xY2N3QJZuRLYCau1LZMu-32" target="xY2N3QJZuRLYCau1LZMu-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xY2N3QJZuRLYCau1LZMu-32" target="xY2N3QJZuRLYCau1LZMu-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -108,6 +110,87 @@
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-34" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1250" y="327" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-41" value="Name of schedule must be deterministic to allow for deletion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="968" y="381.75" width="92" height="78.25" as="geometry" />
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-45" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-46" value="{&lt;br&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; userId: 1234,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; scheduledDateTime: &quot;2023-11-17T10:23:00Z&quot;,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; recurrence: {&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; frequency: &quot;DAILY&quot;,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; unit: 3&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;&quot;&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="253" y="590" width="321.75" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-47" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="148" y="730" width="1402" height="556" as="geometry" />
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-48" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-47">
+          <mxGeometry width="1402" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-49" value="Component" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-48">
+          <mxGeometry width="320" height="50" as="geometry">
+            <mxRectangle width="320" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-50" value="Action" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-48">
+          <mxGeometry x="320" width="322" height="50" as="geometry">
+            <mxRectangle width="322" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-51" value="Example(s)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-48">
+          <mxGeometry x="642" width="400" height="50" as="geometry">
+            <mxRectangle width="400" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-64" value="Notes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-48">
+          <mxGeometry x="1042" width="360" height="50" as="geometry">
+            <mxRectangle width="360" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-52" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-47">
+          <mxGeometry y="50" width="1402" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-53" value="Frontend" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-52">
+          <mxGeometry width="320" height="300" as="geometry">
+            <mxRectangle width="320" height="300" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-54" value="Sends message to API Gateway" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-52">
+          <mxGeometry x="320" width="322" height="300" as="geometry">
+            <mxRectangle width="322" height="300" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-55" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;Create:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Lucida Console&quot;&gt;{&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; userId: 1234,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; scheduledDateTime: &quot;2023-11-17T10:23:00Z&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; recurrence: {&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; frequency: &quot;DAILY&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; unit: 3&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;}&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Update:&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 15px;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; existingId: 9876 // retrieved from read&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; // other fields as above&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;}&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: Helvetica; font-size: 15px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Delete:&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; existingId: 9876 // retrieved from read&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-52">
+          <mxGeometry x="642" width="400" height="300" as="geometry">
+            <mxRectangle width="400" height="300" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-65" value="&lt;div style=&quot;&quot;&gt;Assume frontend already knows the user&#39;s timezone so can correctly set the datetime in UTC.&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-52">
+          <mxGeometry x="1042" width="360" height="300" as="geometry">
+            <mxRectangle width="360" height="300" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-56" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-47">
+          <mxGeometry y="350" width="1402" height="206" as="geometry" />
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-57" value="API Gateway" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-56">
+          <mxGeometry width="320" height="206" as="geometry">
+            <mxRectangle width="320" height="206" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-58" value="Forwards message to a lambda based on the action requested (can be path-based, or HTTP methods such as GET/POST/PATCH/DELETE)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-56">
+          <mxGeometry x="320" width="322" height="206" as="geometry">
+            <mxRectangle width="322" height="206" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-59" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-56">
+          <mxGeometry x="642" width="400" height="206" as="geometry">
+            <mxRectangle width="400" height="206" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-66" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-56">
+          <mxGeometry x="1042" width="360" height="206" as="geometry">
+            <mxRectangle width="360" height="206" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
