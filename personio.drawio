@@ -1,14 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T10:06:20.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="0Wl5AbyvKoA_kss7OvmK" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T10:17:34.508Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7PCXHbJuJikDNMAlUKhq" version="22.1.2" type="github">
   <diagram name="Page-1" id="npTTlI109EYBto2RsMeF">
     <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-2" value="SES" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ses;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="310" width="79.5" height="93" as="geometry" />
-        </mxCell>
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xY2N3QJZuRLYCau1LZMu-3" target="xY2N3QJZuRLYCau1LZMu-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xY2N3QJZuRLYCau1LZMu-3" target="xY2N3QJZuRLYCau1LZMu-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="356.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xY2N3QJZuRLYCau1LZMu-3" target="xY2N3QJZuRLYCau1LZMu-27">
           <mxGeometry relative="1" as="geometry" />
@@ -17,7 +16,7 @@
           <mxGeometry x="890" y="317.5" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-5" value="User Profile service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="330" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="1059" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-6" value="&lt;span style=&quot;background-color: initial;&quot;&gt;NOTES&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Not using EventBridge as source of truth,&amp;nbsp;&lt;/span&gt;as it&#39;s not really set up as a data storage option&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="230" y="700" width="540" height="70" as="geometry" />
@@ -36,7 +35,7 @@
         <mxCell id="xY2N3QJZuRLYCau1LZMu-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xY2N3QJZuRLYCau1LZMu-10" target="xY2N3QJZuRLYCau1LZMu-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-14" value="Create/update&lt;br&gt;schedule" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xY2N3QJZuRLYCau1LZMu-13">
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-14" value="Create/update/delete&lt;br&gt;schedule" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xY2N3QJZuRLYCau1LZMu-13">
           <mxGeometry x="-0.1304" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -74,9 +73,11 @@
         <mxCell id="xY2N3QJZuRLYCau1LZMu-27" value="DLQ" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="890" y="160" width="76.5" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xY2N3QJZuRLYCau1LZMu-2" target="xY2N3QJZuRLYCau1LZMu-27">
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xY2N3QJZuRLYCau1LZMu-32" target="xY2N3QJZuRLYCau1LZMu-27">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1119.8000000000002" y="310" as="sourcePoint" />
             <Array as="points">
+              <mxPoint x="1120" y="318" />
               <mxPoint x="1120" y="207" />
             </Array>
           </mxGeometry>
@@ -87,6 +88,26 @@
               <mxPoint x="679" y="207" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-31" value="Messages will be one-time schedules or recurring schedules" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="718" y="380" width="83" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xY2N3QJZuRLYCau1LZMu-32" target="xY2N3QJZuRLYCau1LZMu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xY2N3QJZuRLYCau1LZMu-32" target="xY2N3QJZuRLYCau1LZMu-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-37" value="Email" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xY2N3QJZuRLYCau1LZMu-35">
+          <mxGeometry x="-0.1351" y="-3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-32" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="317.5" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-34" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="327" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
