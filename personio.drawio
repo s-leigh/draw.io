@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T11:05:45.477Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Dp2uzgdWHn18PTfE1A-p" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T11:14:31.266Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ewVxutd7KGD04SMCdOyj" version="22.1.2" type="github">
   <diagram name="Page-1" id="npTTlI109EYBto2RsMeF">
-    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,7 +45,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-10" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-10" value="Scheduler" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
           <mxGeometry x="640" y="317.5" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xY2N3QJZuRLYCau1LZMu-16" target="xY2N3QJZuRLYCau1LZMu-24">
@@ -117,9 +117,6 @@
         <mxCell id="xY2N3QJZuRLYCau1LZMu-41" value="Name of schedule must be known to allow for deletion: can use DB record ID" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="968" y="381.75" width="102" height="108.25" as="geometry" />
         </mxCell>
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-45" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="570" y="440" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-47" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="28" y="730" width="1522" height="988" as="geometry" />
         </mxCell>
@@ -127,115 +124,115 @@
           <mxGeometry width="1522" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-49" value="Component" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-48">
-          <mxGeometry width="320" height="50" as="geometry">
-            <mxRectangle width="320" height="50" as="alternateBounds" />
+          <mxGeometry width="172" height="50" as="geometry">
+            <mxRectangle width="172" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-50" value="Action" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-48">
-          <mxGeometry x="320" width="322" height="50" as="geometry">
-            <mxRectangle width="322" height="50" as="alternateBounds" />
+          <mxGeometry x="172" width="360" height="50" as="geometry">
+            <mxRectangle width="360" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-51" value="Example(s)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-48">
-          <mxGeometry x="642" width="580" height="50" as="geometry">
-            <mxRectangle width="580" height="50" as="alternateBounds" />
+          <mxGeometry x="532" width="590" height="50" as="geometry">
+            <mxRectangle width="590" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-64" value="Notes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-48">
-          <mxGeometry x="1222" width="300" height="50" as="geometry">
-            <mxRectangle width="300" height="50" as="alternateBounds" />
+          <mxGeometry x="1122" width="400" height="50" as="geometry">
+            <mxRectangle width="400" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-52" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-47">
           <mxGeometry y="50" width="1522" height="320" as="geometry" />
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-53" value="Frontend" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-52">
-          <mxGeometry width="320" height="320" as="geometry">
-            <mxRectangle width="320" height="320" as="alternateBounds" />
+          <mxGeometry width="172" height="320" as="geometry">
+            <mxRectangle width="172" height="320" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-54" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Sends CRUD message to API Gateway&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Queries API Gateway for existing data&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-52">
-          <mxGeometry x="320" width="322" height="320" as="geometry">
-            <mxRectangle width="322" height="320" as="alternateBounds" />
+          <mxGeometry x="172" width="360" height="320" as="geometry">
+            <mxRectangle width="360" height="320" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-55" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Create&lt;/font&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;:&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Lucida Console&quot;&gt;{&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; userId: 1234,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; scheduledDateTime: &quot;2023-11-17T10:25:00Z&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; recurrence: {&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; frequency: &quot;DAILY&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; unit: 3&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; },&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; text: &quot;This is the text that will be emailed&quot;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;}&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Update&lt;/font&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;:&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 15px;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; existingId: 9876 // retrieved from read&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; // other fields as above&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;}&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: Helvetica;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Delete&lt;/font&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;:&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px; border-color: var(--border-color);&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;font-size: 12px; border-color: var(--border-color);&quot;&gt;&amp;nbsp; existingId: 9876 // retrieved from read&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px; border-color: var(--border-color);&quot;&gt;&amp;nbsp; userId: 1234&lt;/div&gt;&lt;div style=&quot;font-size: 12px; border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-52">
-          <mxGeometry x="642" width="580" height="320" as="geometry">
-            <mxRectangle width="580" height="320" as="alternateBounds" />
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-55" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Create&lt;/font&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;:&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Lucida Console&quot;&gt;{&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; userId: 1234,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; scheduledDateTime: &quot;2023-11-17T10:25:00Z&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; recurrence: {&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; frequency: &quot;DAILY&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; interval: 3&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; },&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; text: &quot;This is the text that will be emailed&quot;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;}&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Update&lt;/font&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;:&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 15px;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; existingId: &quot;55c6fab7-bf4e-44d7-8720-24e5e9042225&quot;,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;// retrieved from read&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;&amp;nbsp; // other fields as above&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 12px;&quot;&gt;}&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: Helvetica;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Delete&lt;/font&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;:&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px; border-color: var(--border-color);&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;font-size: 12px; border-color: var(--border-color);&quot;&gt;&amp;nbsp; existingId: &quot;55c6fab7-bf4e-44d7-8720-24e5e9042225&quot;, // retrieved from read&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px; border-color: var(--border-color);&quot;&gt;&amp;nbsp; userId: 1234&lt;/div&gt;&lt;div style=&quot;font-size: 12px; border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-52">
+          <mxGeometry x="532" width="590" height="320" as="geometry">
+            <mxRectangle width="590" height="320" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-65" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;ul&gt;&lt;li&gt;Assume frontend already knows the user&#39;s timezone so can correctly set the datetime in UTC.&lt;/li&gt;&lt;li&gt;If no time is specified, frontend can automatically set to midday&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-52">
-          <mxGeometry x="1222" width="300" height="320" as="geometry">
-            <mxRectangle width="300" height="320" as="alternateBounds" />
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-65" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;ul&gt;&lt;li&gt;Assume frontend already knows the user&#39;s timezone so can correctly set the datetime in UTC.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;NOTE: this means that if daylight savings time begins/ends in the user&#39;s country, a reminder may be sent an hour early/late.&lt;/li&gt;&lt;li&gt;We could handle this in the scheduler lambda for one-off reminders, but recurring reminders would add considerable complexity.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;If no time is specified, frontend can automatically set to midday&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-52">
+          <mxGeometry x="1122" width="400" height="320" as="geometry">
+            <mxRectangle width="400" height="320" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-56" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-47">
           <mxGeometry y="370" width="1522" height="206" as="geometry" />
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-57" value="API Gateway" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-56">
-          <mxGeometry width="320" height="206" as="geometry">
-            <mxRectangle width="320" height="206" as="alternateBounds" />
+          <mxGeometry width="172" height="206" as="geometry">
+            <mxRectangle width="172" height="206" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-58" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Forwards message to a lambda based on the action requested (can be path-based, or HTTP methods such as GET/POST/PATCH/DELETE)&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-56">
-          <mxGeometry x="320" width="322" height="206" as="geometry">
-            <mxRectangle width="322" height="206" as="alternateBounds" />
+          <mxGeometry x="172" width="360" height="206" as="geometry">
+            <mxRectangle width="360" height="206" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-59" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-56">
-          <mxGeometry x="642" width="580" height="206" as="geometry">
-            <mxRectangle width="580" height="206" as="alternateBounds" />
+          <mxGeometry x="532" width="590" height="206" as="geometry">
+            <mxRectangle width="590" height="206" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-66" value="&lt;ul style=&quot;border-color: var(--border-color); font-size: 14px; text-align: left;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Assume there is some kind of auth service we can use for security, or that the frontend can provide a JWT we can validate&lt;/li&gt;&lt;/ul&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-56">
-          <mxGeometry x="1222" width="300" height="206" as="geometry">
-            <mxRectangle width="300" height="206" as="alternateBounds" />
+          <mxGeometry x="1122" width="400" height="206" as="geometry">
+            <mxRectangle width="400" height="206" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-73" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-47">
           <mxGeometry y="576" width="1522" height="206" as="geometry" />
         </mxCell>
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-74" value="Lambda" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-73">
-          <mxGeometry width="320" height="206" as="geometry">
-            <mxRectangle width="320" height="206" as="alternateBounds" />
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-74" value="CRUD Lambdas" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-73">
+          <mxGeometry width="172" height="206" as="geometry">
+            <mxRectangle width="172" height="206" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-75" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Performs CRUD operations on database&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-73">
-          <mxGeometry x="320" width="322" height="206" as="geometry">
-            <mxRectangle width="322" height="206" as="alternateBounds" />
+          <mxGeometry x="172" width="360" height="206" as="geometry">
+            <mxRectangle width="360" height="206" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-76" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-73">
-          <mxGeometry x="642" width="580" height="206" as="geometry">
-            <mxRectangle width="580" height="206" as="alternateBounds" />
+          <mxGeometry x="532" width="590" height="206" as="geometry">
+            <mxRectangle width="590" height="206" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-77" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-73">
-          <mxGeometry x="1222" width="300" height="206" as="geometry">
-            <mxRectangle width="300" height="206" as="alternateBounds" />
+          <mxGeometry x="1122" width="400" height="206" as="geometry">
+            <mxRectangle width="400" height="206" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-68" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-47">
           <mxGeometry y="782" width="1522" height="206" as="geometry" />
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-69" value="Database" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-68">
-          <mxGeometry width="320" height="206" as="geometry">
-            <mxRectangle width="320" height="206" as="alternateBounds" />
+          <mxGeometry width="172" height="206" as="geometry">
+            <mxRectangle width="172" height="206" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-70" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Stores data&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Publishes a stream of updates&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-68">
-          <mxGeometry x="320" width="322" height="206" as="geometry">
-            <mxRectangle width="322" height="206" as="alternateBounds" />
+          <mxGeometry x="172" width="360" height="206" as="geometry">
+            <mxRectangle width="360" height="206" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-71" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Example non-relational record:&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;&quot; face=&quot;Lucida Console&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;{&lt;/font&gt;&lt;br&gt;&amp;nbsp; userId: 1234, // Partition key&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; recordId: &quot;55c6fab7-bf4e-44d7-8720-24e5e9042225&quot;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;// Sort key (autogenerated)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; // other fields as in &quot;create&quot; message&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; // optional: TTL for non-recurring events set to x days after scheduled date&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; // optional: last created/updated fields for debugging&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;}&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-68">
-          <mxGeometry x="642" width="580" height="206" as="geometry">
-            <mxRectangle width="580" height="206" as="alternateBounds" />
+          <mxGeometry x="532" width="590" height="206" as="geometry">
+            <mxRectangle width="590" height="206" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-72" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Can be relational or non-relational, as long as we can get an event stream&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-68">
-          <mxGeometry x="1222" width="300" height="206" as="geometry">
-            <mxRectangle width="300" height="206" as="alternateBounds" />
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-72" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Can be relational or non-relational, as long as we can get an event stream&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;We use a database as a source of truth rather than EventBrdige itself to allow for flexibility in retrieving records&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="xY2N3QJZuRLYCau1LZMu-68">
+          <mxGeometry x="1122" width="400" height="206" as="geometry">
+            <mxRectangle width="400" height="206" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-78" value="Auth service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
