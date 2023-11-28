@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T11:27:36.958Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="BQpS_R71zAU1AeS3WKhR" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T12:45:21.531Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="NVlk_pZrzBXnPMhqRzld" version="22.1.4" type="github">
   <diagram name="Page-1" id="npTTlI109EYBto2RsMeF">
     <mxGraphModel dx="1674" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
           <mxGeometry x="890" y="317.5" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-5" value="User Profile service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="619" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="199" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xY2N3QJZuRLYCau1LZMu-7" target="xY2N3QJZuRLYCau1LZMu-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -37,14 +37,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xY2N3QJZuRLYCau1LZMu-10" target="xY2N3QJZuRLYCau1LZMu-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-40" value="Get email address" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xY2N3QJZuRLYCau1LZMu-39" vertex="1" connectable="0">
-          <mxGeometry x="0.1807" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-10" value="Scheduler" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" parent="1" vertex="1">
           <mxGeometry x="640" y="317.5" width="78" height="78" as="geometry" />
         </mxCell>
@@ -58,6 +50,9 @@
           <mxGeometry x="50" y="310" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xY2N3QJZuRLYCau1LZMu-18" target="xY2N3QJZuRLYCau1LZMu-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QvcKJb9GY22rcRLKjqOQ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xY2N3QJZuRLYCau1LZMu-18" target="xY2N3QJZuRLYCau1LZMu-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-18" value="Create/update/delete" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" parent="1" vertex="1">
