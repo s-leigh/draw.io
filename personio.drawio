@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T15:29:27.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5V8dNfTlH5gA5tIft_-q" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T09:38:04.597Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="txN18uPykoi9B2og9wj6" version="22.1.4" type="github">
   <diagram name="Page-1" id="npTTlI109EYBto2RsMeF">
     <mxGraphModel dx="1674" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="xY2N3QJZuRLYCau1LZMu-3" target="xY2N3QJZuRLYCau1LZMu-32" edge="1">
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="xY2N3QJZuRLYCau1LZMu-3" target="QvcKJb9GY22rcRLKjqOQ-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1080" y="356.5" as="targetPoint" />
           </mxGeometry>
@@ -85,8 +85,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1119.8000000000002" y="310" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1100" y="318" />
-              <mxPoint x="1100" y="207" />
+              <mxPoint x="1230" y="318" />
+              <mxPoint x="1230" y="207" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -98,19 +98,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-31" value="Messages will be one-time schedules or recurring schedules" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
-          <mxGeometry x="718" y="380" width="83" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="L6YhbnFNisVWJ-gl-ytB-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xY2N3QJZuRLYCau1LZMu-32" target="L6YhbnFNisVWJ-gl-ytB-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="760" y="388" width="83" height="80" as="geometry" />
         </mxCell>
         <mxCell id="L6YhbnFNisVWJ-gl-ytB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xY2N3QJZuRLYCau1LZMu-32" target="L6YhbnFNisVWJ-gl-ytB-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-32" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" parent="1" vertex="1">
-          <mxGeometry x="1114.75" y="317.5" width="78" height="78" as="geometry" />
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-32" value="Emailer" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="317.5" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-41" value="Name of schedule must be known to allow for deletion: can use DB record ID" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
-          <mxGeometry x="968" y="381.75" width="102" height="108.25" as="geometry" />
+          <mxGeometry x="890" y="420" width="102" height="108.25" as="geometry" />
         </mxCell>
         <mxCell id="xY2N3QJZuRLYCau1LZMu-47" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="28" y="730" width="1522" height="988" as="geometry" />
@@ -192,7 +189,7 @@
             <mxRectangle width="172" height="206" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-75" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Performs CRUD operations on database&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" parent="xY2N3QJZuRLYCau1LZMu-73" vertex="1">
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-75" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Perform CRUD operations on database&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" parent="xY2N3QJZuRLYCau1LZMu-73" vertex="1">
           <mxGeometry x="172" width="360" height="206" as="geometry">
             <mxRectangle width="360" height="206" as="alternateBounds" />
           </mxGeometry>
@@ -233,11 +230,8 @@
         <mxCell id="xY2N3QJZuRLYCau1LZMu-78" value="Auth service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="28" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L6YhbnFNisVWJ-gl-ytB-1" value="Cache" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elasticache;fillColor=#2E73B8;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="440" width="67.5" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="L6YhbnFNisVWJ-gl-ytB-3" value="EventBridge is at-least-once delivery, so lambda will read from the cache to ensure the message hasn&#39;t already been handled, and write to it after handling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1192.75" y="450" width="120" height="128.25" as="geometry" />
+        <mxCell id="L6YhbnFNisVWJ-gl-ytB-3" value="EventBridge is at-least-once delivery: SQS messages contain a deduplication ID which drops duplicate messages within a 5-minute window" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="430" width="120" height="128.25" as="geometry" />
         </mxCell>
         <mxCell id="L6YhbnFNisVWJ-gl-ytB-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L6YhbnFNisVWJ-gl-ytB-8" target="L6YhbnFNisVWJ-gl-ytB-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -247,20 +241,27 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MkLt-OEL39xJ8D05fHpL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.58;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="L6YhbnFNisVWJ-gl-ytB-8">
+        <mxCell id="MkLt-OEL39xJ8D05fHpL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.58;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="L6YhbnFNisVWJ-gl-ytB-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="968" y="180" as="targetPoint" />
             <mxPoint x="1321.3000000000002" y="283.5" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1326" y="180" />
+              <mxPoint x="1400" y="310" />
+              <mxPoint x="1400" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="L6YhbnFNisVWJ-gl-ytB-8" value="SES" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ses;fillColor=#D9A741;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1280" y="310" width="79.5" height="93" as="geometry" />
+          <mxGeometry x="1355.25" y="310" width="79.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="L6YhbnFNisVWJ-gl-ytB-10" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="1470" y="326.5" width="30" height="60" as="geometry" />
+          <mxGeometry x="1545.25" y="326.5" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QvcKJb9GY22rcRLKjqOQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QvcKJb9GY22rcRLKjqOQ-1" target="xY2N3QJZuRLYCau1LZMu-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QvcKJb9GY22rcRLKjqOQ-1" value="SQS" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1043.5" y="310" width="76.5" height="93" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
