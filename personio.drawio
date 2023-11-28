@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T09:38:04.597Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="txN18uPykoi9B2og9wj6" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T11:27:36.958Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="BQpS_R71zAU1AeS3WKhR" version="22.1.4" type="github">
   <diagram name="Page-1" id="npTTlI109EYBto2RsMeF">
     <mxGraphModel dx="1674" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -153,7 +153,7 @@
             <mxRectangle width="590" height="320" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xY2N3QJZuRLYCau1LZMu-65" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;ul&gt;&lt;li&gt;Assume frontend already knows the user&#39;s timezone so can correctly set the datetime in UTC.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;NOTE: this means that if daylight savings time begins/ends in the user&#39;s country, a reminder may be sent an hour early/late.&lt;/li&gt;&lt;li&gt;We could handle this in the scheduler lambda for one-off reminders, but recurring reminders would add considerable complexity.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;If no time is specified, frontend can automatically set to midday&lt;/li&gt;&lt;li&gt;We send the whole object for an update, so an update is just a delete + create&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" parent="xY2N3QJZuRLYCau1LZMu-52" vertex="1">
+        <mxCell id="xY2N3QJZuRLYCau1LZMu-65" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;ul&gt;&lt;li&gt;Assume frontend already knows the user&#39;s timezone so can correctly set the datetime in ISO-8601.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;NOTE: this means that if daylight savings time begins/ends in the user&#39;s country, a reminder will appear to be sent an hour early/late.&lt;/li&gt;&lt;li&gt;We could handle this in the scheduler lambda for one-off reminders, but recurring reminders would add considerable complexity.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;If no time is specified, frontend can automatically set to midday&lt;/li&gt;&lt;li&gt;We send the whole object for an update, so an update is just a delete + create&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" parent="xY2N3QJZuRLYCau1LZMu-52" vertex="1">
           <mxGeometry x="1122" width="400" height="320" as="geometry">
             <mxRectangle width="400" height="320" as="alternateBounds" />
           </mxGeometry>
@@ -230,8 +230,8 @@
         <mxCell id="xY2N3QJZuRLYCau1LZMu-78" value="Auth service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="28" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L6YhbnFNisVWJ-gl-ytB-3" value="EventBridge is at-least-once delivery: SQS messages contain a deduplication ID which drops duplicate messages within a 5-minute window" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="430" width="120" height="128.25" as="geometry" />
+        <mxCell id="L6YhbnFNisVWJ-gl-ytB-3" value="EventBridge is at-least-once delivery: SQS messages contain a deduplication ID which drops duplicate messages within a 5-minute window. SQS can also batch messages to save large numbers of Emailer lambda instances spinning up." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="430" width="150" height="170" as="geometry" />
         </mxCell>
         <mxCell id="L6YhbnFNisVWJ-gl-ytB-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L6YhbnFNisVWJ-gl-ytB-8" target="L6YhbnFNisVWJ-gl-ytB-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
